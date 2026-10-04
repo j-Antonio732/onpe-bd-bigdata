@@ -12,7 +12,10 @@ El repositorio reúne la implementación descrita en el informe: base de datos r
 ├── sql/                                   # Base de datos (SQL Server)
 │   ├── 01_BD_ONPE_modelo_relacional_3FN.sql          # 12 tablas normalizadas (3FN)
 │   ├── 02_BD_ONPE_modelo_dimensional_estrella.sql    # H_ASISTENCIA + 5 dimensiones
-│   └── 03_BD_ONPE_claves_foraneas_estrella.sql       # FK de la tabla de hechos
+│   ├── 03_BD_ONPE_claves_foraneas_estrella.sql       # FK de la tabla de hechos
+│   ├── 04_BD_ONPE_datos_iniciales.sql                # datos de ejemplo (INSERT)
+│   ├── 05_BD_ONPE_vistas.sql                         # 5 vistas de consulta
+│   └── 06_BD_ONPE_pruebas_DML_y_consultas.sql        # UPDATE/DELETE/INSERT y consultas
 ├── bigdata/                               # Prueba de concepto Big Data (PySpark)
 │   ├── generar_datos.py                   # CSV sintético (semilla 42)
 │   ├── convertir_a_parquet.py             # CSV -> Parquet
@@ -37,11 +40,14 @@ El repositorio reúne la implementación descrita en el informe: base de datos r
 
 Ejecutar en SQL Server Management Studio, en este orden:
 
-1. `sql/01_BD_ONPE_modelo_relacional_3FN.sql`
-2. `sql/02_BD_ONPE_modelo_dimensional_estrella.sql`
-3. `sql/03_BD_ONPE_claves_foraneas_estrella.sql`
+1. `sql/01_BD_ONPE_modelo_relacional_3FN.sql`: crea la base de datos BD_ONPE y las 12 tablas.
+2. `sql/02_BD_ONPE_modelo_dimensional_estrella.sql`: crea la tabla de hechos y las dimensiones.
+3. `sql/03_BD_ONPE_claves_foraneas_estrella.sql`: relaciona la tabla de hechos con las dimensiones.
+4. `sql/04_BD_ONPE_datos_iniciales.sql`: carga los datos de ejemplo del modelo relacional.
+5. `sql/05_BD_ONPE_vistas.sql`: crea las vistas `VW_CIUDADANOS`, `VW_MIEMBROS_MESA`, `VW_CAPACITACIONES`, `VW_ASISTENCIA` y `VW_DISTRIBUCION_MATERIAL`.
+6. `sql/06_BD_ONPE_pruebas_DML_y_consultas.sql` (opcional): pruebas de actualización, eliminación y consultas. Algunas sentencias son pruebas de integridad referencial y SQL Server las rechaza a propósito (ver el comentario al inicio del archivo).
 
-Los scripts crean la estructura (DDL). Los datos de BD_ONPE y las consultas de Power Query se documentan en el informe, secciones 3.4.2 y 3.4.3.
+Las tablas del esquema en estrella (paso 2) quedan vacías: el informe describe su carga con Power Query (sección 3.4.3).
 
 ## Cómo ejecutar la prueba de concepto Big Data
 
@@ -61,7 +67,7 @@ Con la semilla 42 el conjunto de datos es siempre el mismo: 12 distritos × 6 pr
 
 Estos elementos no están en el repositorio y se agregan al informe cuando existan:
 
-- Archivo del dashboard de Power BI (`.pbix`), evidencia E-13.
+- Archivo del dashboard de Power BI (`.pbix`), evidencia E-13, y el código de las consultas de Power Query que cargan el modelo en estrella.
 - Enlace al notebook de Google Colab, evidencia E-14.
 - Versiones de SQL Server, Power BI Desktop y PySpark (Tabla 18 del informe).
 
