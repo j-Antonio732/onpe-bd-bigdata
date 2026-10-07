@@ -96,4 +96,9 @@ Estos elementos no están en el repositorio y se agregan al informe cuando exist
 
 ## Autores
 
-Completar con los integrantes del equipo.
+Completar con los integrantes del equipo. 
+* Cáceres Anculle Milagros Nancy - N00405073
+* Galvez Poemape Janina Fiorella - N00415221
+* Vilcachagua Garcia Jordy - N00199626
+* Soto Villano Juan Antonio - N00385625
+
