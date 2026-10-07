@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+spark-warehouse/
+metastore_db/
+derby.log
+.DS_Store
+~$*.docx
+bigdata/escalabilidad/datos_*/
