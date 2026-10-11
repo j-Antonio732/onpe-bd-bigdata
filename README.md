@@ -23,11 +23,16 @@ El repositorio reúne la implementación descrita en el informe: base de datos r
 │   ├── convertir_a_parquet.py             # CSV -> Parquet
 │   ├── onpe_participacion_historica.py    # agregación con PySpark
 │   ├── escalabilidad.py                   # prueba de escalabilidad (72 a 5 000 000 filas)
+│   ├── bigdata_onpe.ipynb                 # copia del notebook de Google Colab (E-14)
 │   ├── escalabilidad/                     # resultados y log de la prueba de escalabilidad
 │   ├── datalake/onpe/                     # datos de entrada (CSV y Parquet)
 │   ├── salida_resultado/                  # resultado completo (36 filas)
 │   ├── resultado_ejecucion_real.csv       # copia del resultado de la ejecución
 │   └── evidencia_bigdata_onpe.zip         # paquete de evidencias (E-14)
+├── powerbi/                               # Solución BI (Power BI)
+│   ├── Inteligencia de Negocios ERM 2026.pbix         # dashboard (E-13)
+│   ├── BD_ONPE_CRUDO_para_ETL.xlsx                    # datos crudos para el ETL
+│   └── consultas_powerquery.m                         # consultas de Power Query del modelo en estrella
 ├── docs/
 │   ├── informe/                           # informe final en Word
 │   └── figuras/                           # gráficos de resultados del informe
@@ -56,7 +61,7 @@ Las tablas del esquema en estrella (paso 2) quedan vacías hasta cargarlas. El i
 7. `sql/07_BD_ONPE_ETL_carga_estrella.sql`: crea la bitácora `LOG_CARGA_ETL` y el procedimiento `SP_CARGAR_MODELO_ESTRELLA`, que carga las cinco dimensiones y `H_ASISTENCIA` en una transacción y reconcilia los registros de `ASISTENCIA` y `H_ASISTENCIA` (si no coinciden, revierte). El script termina ejecutando el procedimiento y mostrando conteos y bitácora (tomar captura como evidencia).
 8. `sql/08_BD_ONPE_job_automatizacion.sql`: crea el job `ONPE_Carga_Modelo_Estrella` de SQL Server Agent (todos los días a las 02:00). SQL Server Agent no está en la edición Express; en ese caso, programar el mismo procedimiento con el Programador de tareas de Windows y `sqlcmd` (ver el comentario del archivo).
 
-Estado: la lógica de la carga se verificó trasladándola a SQLite con los datos de `04` y la sintaxis T-SQL con `sqlglot`; **falta ejecutarla en SQL Server** y conservar la captura (figura 5 del informe).
+Estado: la carga se ejecutó en SQL Server; la captura de la ejecución y de la bitácora está en `docs/figuras/fig_ejecucion_sqlserver.png` (figura 5 del informe).
 
 ## Cómo ejecutar la prueba de concepto Big Data
 
@@ -87,16 +92,10 @@ Salidas en `bigdata/escalabilidad/`: `resultados_escalabilidad.csv` (una fila po
 
 ## Datos pendientes de completar por el equipo
 
-Estos elementos no están en el repositorio y se agregan al informe cuando existan:
-
-- Archivo del dashboard de Power BI (`.pbix`), evidencia E-13, y el código de las consultas de Power Query que cargan el modelo en estrella.
-- Enlace al notebook de Google Colab, evidencia E-14.
-- Captura de la ejecución en SQL Server de `SP_CARGAR_MODELO_ESTRELLA`, de `LOG_CARGA_ETL` y del job (figura 5 del informe, sección 3.4.3).
 - Versiones de SQL Server, Power BI Desktop y PySpark (Tabla 19 del informe).
 
 ## Autores
 
-Completar con los integrantes del equipo. 
 * Cáceres Anculle Milagros Nancy - N00405073
 * Galvez Poemape Janina Fiorella - N00415221
 * Vilcachagua Garcia Jordy - N00199626
