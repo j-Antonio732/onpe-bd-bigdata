@@ -1,0 +1,73 @@
+id_proceso,ubigeo,proceso_electoral,codigo_proceso,porcentaje_participacion
+1,LIMA,Elecciones Generales,EG-2016,70.29
+2,LIMA,Elecciones Generales,EG-2020,73.29
+3,LIMA,Elecciones Generales,EG-2021,72.66
+4,LIMA,Elecciones Regionales y Municipales,ERM-2018,78.82
+5,LIMA,Elecciones Regionales y Municipales,ERM-2022,78.11
+6,LIMA,Referéndum,REF-2018,80.69
+7,AREQUIPA,Elecciones Generales,EG-2016,61.24
+8,AREQUIPA,Elecciones Generales,EG-2020,56.53
+9,AREQUIPA,Elecciones Generales,EG-2021,58.8
+10,AREQUIPA,Elecciones Regionales y Municipales,ERM-2018,62.24
+11,AREQUIPA,Elecciones Regionales y Municipales,ERM-2022,56.49
+12,AREQUIPA,Referéndum,REF-2018,58.56
+13,CUSCO,Elecciones Generales,EG-2016,76.79
+14,CUSCO,Elecciones Generales,EG-2020,72.89
+15,CUSCO,Elecciones Generales,EG-2021,77.32
+16,CUSCO,Elecciones Regionales y Municipales,ERM-2018,79.96
+17,CUSCO,Elecciones Regionales y Municipales,ERM-2022,70.33
+18,CUSCO,Referéndum,REF-2018,79.92
+19,LORETO,Elecciones Generales,EG-2016,75.54
+20,LORETO,Elecciones Generales,EG-2020,73.32
+21,LORETO,Elecciones Generales,EG-2021,82.94
+22,LORETO,Elecciones Regionales y Municipales,ERM-2018,75.49
+23,LORETO,Elecciones Regionales y Municipales,ERM-2022,72.57
+24,LORETO,Referéndum,REF-2018,72.61
+25,PIURA,Elecciones Generales,EG-2016,82.43
+26,PIURA,Elecciones Generales,EG-2020,84.87
+27,PIURA,Elecciones Generales,EG-2021,83.94
+28,PIURA,Elecciones Regionales y Municipales,ERM-2018,81.62
+29,PIURA,Elecciones Regionales y Municipales,ERM-2022,86.86
+30,PIURA,Referéndum,REF-2018,79.73
+31,LA LIBERTAD,Elecciones Generales,EG-2016,77.75
+32,LA LIBERTAD,Elecciones Generales,EG-2020,75.22
+33,LA LIBERTAD,Elecciones Generales,EG-2021,78.14
+34,LA LIBERTAD,Elecciones Regionales y Municipales,ERM-2018,74.73
+35,LA LIBERTAD,Elecciones Regionales y Municipales,ERM-2022,76.26
+36,LA LIBERTAD,Referéndum,REF-2018,68.35
+37,PUNO,Elecciones Generales,EG-2016,63.17
+38,PUNO,Elecciones Generales,EG-2020,60.65
+39,PUNO,Elecciones Generales,EG-2021,62.49
+40,PUNO,Elecciones Regionales y Municipales,ERM-2018,60.91
+41,PUNO,Elecciones Regionales y Municipales,ERM-2022,63.03
+42,PUNO,Referéndum,REF-2018,67.33
+43,JUNIN,Elecciones Generales,EG-2016,67.56
+44,JUNIN,Elecciones Generales,EG-2020,65.63
+45,JUNIN,Elecciones Generales,EG-2021,66.32
+46,JUNIN,Elecciones Regionales y Municipales,ERM-2018,74.36
+47,JUNIN,Elecciones Regionales y Municipales,ERM-2022,70.9
+48,JUNIN,Referéndum,REF-2018,70.43
+49,CAJAMARCA,Elecciones Generales,EG-2016,67.03
+50,CAJAMARCA,Elecciones Generales,EG-2020,60.24
+51,CAJAMARCA,Elecciones Generales,EG-2021,62.83
+52,CAJAMARCA,Elecciones Regionales y Municipales,ERM-2018,70.15
+53,CAJAMARCA,Elecciones Regionales y Municipales,ERM-2022,65.96
+54,CAJAMARCA,Referéndum,REF-2018,64.96
+55,ANCASH,Elecciones Generales,EG-2016,81.23
+56,ANCASH,Elecciones Generales,EG-2020,80.43
+57,ANCASH,Elecciones Generales,EG-2021,73.86
+58,ANCASH,Elecciones Regionales y Municipales,ERM-2018,71.5
+59,ANCASH,Elecciones Regionales y Municipales,ERM-2022,74.9
+60,ANCASH,Referéndum,REF-2018,74.33
+61,SAN MARTIN,Elecciones Generales,EG-2016,70.59
+62,SAN MARTIN,Elecciones Generales,EG-2020,69.79
+63,SAN MARTIN,Elecciones Generales,EG-2021,63.05
+64,SAN MARTIN,Elecciones Regionales y Municipales,ERM-2018,67.14
+65,SAN MARTIN,Elecciones Regionales y Municipales,ERM-2022,64.02
+66,SAN MARTIN,Referéndum,REF-2018,70.25
+67,ICA,Elecciones Generales,EG-2016,68.65
+68,ICA,Elecciones Generales,EG-2020,68.43
+69,ICA,Elecciones Generales,EG-2021,72.21
+70,ICA,Elecciones Regionales y Municipales,ERM-2018,68.62
+71,ICA,Elecciones Regionales y Municipales,ERM-2022,72.49
+72,ICA,Referéndum,REF-2018,76.25

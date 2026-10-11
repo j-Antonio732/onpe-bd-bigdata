@@ -1,0 +1,6 @@
+filas,repeticiones,tam_csv_mb,tam_parquet_mb,t_conv_prom_s,t_agg_prom_s,t_agg_desv_s,t_total_prom_s,t_total_desv_s,filas_por_s_prom,grupos_resultado,suma_coincide_en_todas
+72,3,0.0,0.0,0.63,0.91,0.43,1.54,0.9,57.0,36,True
+10000,3,0.52,0.07,0.4,0.58,0.07,0.98,0.05,10169.0,36,True
+100000,3,5.31,0.59,0.62,0.62,0.04,1.24,0.06,80523.0,36,True
+1000000,3,54.12,5.64,2.14,0.79,0.04,2.93,0.04,341603.0,36,True
+5000000,3,275.06,28.06,7.04,1.5,0.12,8.54,0.19,585557.0,36,True
