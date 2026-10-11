@@ -17,6 +17,6 @@ Tabla 32 del informe, con la ubicación de cada evidencia dentro de este reposit
 | E-11 | Conclusiones, recomendaciones y decisiones | Informe, capítulo VII | En el informe |
 | E-12 | Retroalimentación y mejoras implementadas | Informe, sección 5.5 | En el informe |
 | E-13 | Solución BI funcional / demostración | `powerbi/Inteligencia de Negocios ERM 2026.pbix`; dashboard publicado: https://app.powerbi.com/links/JEjCrLz9UF?ctid=48ba00e0-002e-4cb0-b501-07385d34ec34&pbi_source=linkShare | Incluido |
-| E-14 | Solución Big Data funcional / demostración | `bigdata/`, `bigdata/evidencia_bigdata_onpe.zip`, `bigdata/bigdata_onpe.ipynb` (copia del notebook); notebook de Colab: https://colab.research.google.com/drive/1sxzbUL4gdrtDeD9W5IRiCgCzpEqYErSc?usp=sharing | Incluido (confirmar que el Colab esté compartido como "cualquier persona con el enlace") |
-| E-15 | Aportes individuales y defensa | Informe, sección 5.6 | Pendiente |
+| E-14 | Solución Big Data funcional / demostración | `bigdata/`, `bigdata/evidencia_bigdata_onpe.zip`, `bigdata/bigdata_onpe.ipynb` (copia del notebook); notebook de Colab: https://colab.research.google.com/drive/1sxzbUL4gdrtDeD9W5IRiCgCzpEqYErSc?usp=sharing | Incluido |
+| E-15 | Aportes individuales y defensa | Informe, sección 5.6 (Tabla 23); `aportes-individuales/contribuciones-individuales-5.6.png`: https://github.com/j-Antonio732/onpe-bd-bigdata/blob/main/aportes-individuales/contribuciones-individuales-5.6.png | Incluido |
 | E-16 | Declaración de uso responsable de IA | Informe, sección 5.7 y último anexo | En el informe |

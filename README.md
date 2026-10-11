@@ -36,6 +36,7 @@ El repositorio reúne la implementación descrita en el informe: base de datos r
 ├── docs/
 │   ├── informe/                           # informe final en Word
 │   └── figuras/                           # gráficos de resultados del informe
+├── aportes-individuales/                  # contribuciones individuales, Tabla 23 (E-15)
 └── evidencias/MANIFIESTO.md               # evidencias E-01 a E-16 y su ubicación
 ```
 
